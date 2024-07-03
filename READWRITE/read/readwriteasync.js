@@ -6,7 +6,7 @@ fs.readFile('data.txt',"utf-8",(err,data)=>{
     fs.writeFile("abc.txt","data",(err)=>{
         
      if(err) throw  err
-    console.log("written successfully");
+    // console.log("written successfully");
 
 })
 })
