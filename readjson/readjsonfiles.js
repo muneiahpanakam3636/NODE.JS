@@ -1,5 +1,5 @@
 const fs = require("fs")
-const {json}=require("stream/consumers")
+// const {json}=require("stream/consumers")
 
 fs.readFile("user.json","utf-8",(err,data)=>{
     if (err)throw err
